@@ -27,7 +27,7 @@
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
     "langchain": "^0.3.2",
-    "langsmith": "^0.1.66",
+    "langsmith": "^0.3.82",
     "next": "15.5.7",
     "pdf-parse": "^1.1.1",
     "postcss": "8.4.27",

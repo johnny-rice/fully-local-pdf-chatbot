@@ -1784,7 +1784,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -1911,6 +1911,15 @@ __metadata:
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
   checksum: 902a9f5d8967a3e2faf138d5cb784b9979bad2e6db5357c5b21c568df4ebe62bcb15108af1b2253744844eb964fc023fbd9afbbbb6ddd0bcc204c6fb5b7bf3af
+  languageName: node
+  linkType: hard
+
+"console-table-printer@npm:^2.12.1":
+  version: 2.15.0
+  resolution: "console-table-printer@npm:2.15.0"
+  dependencies:
+    simple-wcswidth: ^1.1.2
+  checksum: a878e446303eabaa86a2fd7f0d956d24252e0837be23249e7ad24daf3f304ce7bf155ca79b25ccd4f380f31fa35e427adc762e49ff29236f82a96c4b1d88551e
   languageName: node
   linkType: hard
 
@@ -2913,7 +2922,7 @@ __metadata:
     eslint: 8.46.0
     eslint-config-next: 13.4.12
     langchain: ^0.3.2
-    langsmith: ^0.1.66
+    langsmith: ^0.3.82
     next: 15.5.7
     pdf-parse: ^1.1.1
     postcss: 8.4.27
@@ -3794,7 +3803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langsmith@npm:^0.1.65, langsmith@npm:^0.1.66":
+"langsmith@npm:^0.1.65":
   version: 0.1.66
   resolution: "langsmith@npm:0.1.66"
   dependencies:
@@ -3810,6 +3819,34 @@ __metadata:
     openai:
       optional: true
   checksum: 9c0cb365e2278a255dc0d045402fbec67cf3a6314e7858b398a267b1e97d3f24e5b4ba5286c80a3fe6c13443ac1fca8fd1555f3a0990b74b7c6be8c608581394
+  languageName: node
+  linkType: hard
+
+"langsmith@npm:^0.3.82":
+  version: 0.3.82
+  resolution: "langsmith@npm:0.3.82"
+  dependencies:
+    "@types/uuid": ^10.0.0
+    chalk: ^4.1.2
+    console-table-printer: ^2.12.1
+    p-queue: ^6.6.2
+    semver: ^7.6.3
+    uuid: ^10.0.0
+  peerDependencies:
+    "@opentelemetry/api": "*"
+    "@opentelemetry/exporter-trace-otlp-proto": "*"
+    "@opentelemetry/sdk-trace-base": "*"
+    openai: "*"
+  peerDependenciesMeta:
+    "@opentelemetry/api":
+      optional: true
+    "@opentelemetry/exporter-trace-otlp-proto":
+      optional: true
+    "@opentelemetry/sdk-trace-base":
+      optional: true
+    openai:
+      optional: true
+  checksum: 02fc413f44eab323421c3827204f090862ffc18c12954519cf57d1021b4409d5bd45dc20fcb65a2d06303dd9fcf403ac1bae58246048427d36a4acbc093ed5c5
   languageName: node
   linkType: hard
 
@@ -5412,6 +5449,13 @@ __metadata:
   dependencies:
     is-arrayish: ^0.3.1
   checksum: a7f3f2ab5c76c4472d5c578df892e857323e452d9f392e1b5cf74b74db66e6294a1e1b8b390b519fa1b96b5b613f2a37db6cffef52c3f1f8f3c5ea64eb2d54c0
+  languageName: node
+  linkType: hard
+
+"simple-wcswidth@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "simple-wcswidth@npm:1.1.2"
+  checksum: 210eea36d28fb8dbadb1dcf5a19e747c1435548ec56bfd86f1c79fb9ddf676b252d84632d3ab9a787251281c499520e63bca1d9f5997cbd66c25996c10e056b1
   languageName: node
   linkType: hard
 
